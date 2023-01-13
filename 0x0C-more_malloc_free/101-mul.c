@@ -1,20 +1,3 @@
-
-Rasheedat71
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x0C-more_malloc_free/101-mul.c
-@Rasheedat71
-Rasheedat71 Malloc
- 1 contributor
-154 lines (134 sloc)  2.43 KB
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
