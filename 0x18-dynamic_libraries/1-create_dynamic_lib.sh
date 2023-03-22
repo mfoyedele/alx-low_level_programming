@@ -1,6 +1,3 @@
 #!/bin/bash
-for file in *.c; do
-gcc -fPIC -c "$file"
-done
-gcc -shared -o libdynamic.so *.o
-rm *.o
+gcc -fPIC -g -c -Wall -pedantic -Werror -Wextra *.c
+gcc -shared -Wl,-soname,liball.so -o liball.so *.o -lc
